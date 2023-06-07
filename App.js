@@ -18,7 +18,7 @@ export default function App() {
             backgroundColor: '#3b82f6',
           }, headerTintColor: '#fff',
           headerTitleStyle: {
-            fontWeight: 'bold',
+            fontFamily:'Kanit',
           },headerTitleAlign:'center'}}/>
           <Stack.Screen name="Home" component={Home} options={{
           title: 'Inicio',
@@ -26,7 +26,7 @@ export default function App() {
             backgroundColor: '#3b82f6',
           }, headerTintColor: '#fff',
           headerTitleStyle: {
-            fontWeight: 'bold',
+            fontFamily:'Kanit',
           },headerTitleAlign:'center'}}/>
           
       </Stack.Navigator>
