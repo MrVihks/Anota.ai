@@ -1,5 +1,3 @@
-import { StatusBar } from 'expo-status-bar';
-import {Text, View } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack'; 
 import { NavigationContainer } from '@react-navigation/native'; 
 
@@ -18,7 +16,6 @@ export default function App() {
             backgroundColor: '#3b82f6',
           }, headerTintColor: '#fff',
           headerTitleStyle: {
-            fontFamily:'Kanit',
           },headerTitleAlign:'center'}}/>
           <Stack.Screen name="Home" component={Home} options={{
           title: 'Inicio',
@@ -26,7 +23,6 @@ export default function App() {
             backgroundColor: '#3b82f6',
           }, headerTintColor: '#fff',
           headerTitleStyle: {
-            fontFamily:'Kanit',
           },headerTitleAlign:'center'}}/>
           
       </Stack.Navigator>

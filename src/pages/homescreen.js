@@ -25,9 +25,6 @@ export default function Home() {
             <Tab.Screen name="CreateNote" component={CreateNoteScreen} options={{
                 tabBarLabel: 'Criar Anotação',
                 headerShown:false,
-                headerTitleStyle:{
-                    fontFamily:'Kanit'
-                },
                 tabBarIcon: ({ color, size }) => (
                     <Entypo name="add-to-list" size={size} color={color} />),
             }} />
